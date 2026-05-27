@@ -20,12 +20,12 @@ import segundaparcialmarchettaagustin.entidades.Robot;
 public class RobotsenergiaController implements Initializable {
 
     @FXML
-    private ListView<String> listViewRobots;
+    private ListView<String> listviewEnergiaBaja;
 
     public void setRobots(List<Robot> robots) {
-        listViewRobots.getItems().clear();
+        listviewEnergiaBaja.getItems().clear();
         for (Robot r : robots) {
-            listViewRobots.getItems().add(r.getNombre() + " - Energía: " + r.getNivelEnergia());
+            listviewEnergiaBaja.getItems().add(r.getNombre() + " - Energía: " + r.getNivelEnergia());
         }
     }
 

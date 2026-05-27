@@ -79,6 +79,7 @@ public abstract class Robot implements CSVEscritor{
         return sb.toString();
     }
     
+    
      public static Robot fromCSV(String line) {
         String[] p = line.split(";");
         String tipo = p[0];

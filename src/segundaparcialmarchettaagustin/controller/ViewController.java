@@ -65,7 +65,7 @@ public class ViewController implements Initializable {
 
         
         // cargar lista desde el archivo
-       this.listaRobots = new ArrayList<>(CSVUtils.cargarListaCSV("vehiculos.csv", linea -> Robot.fromCSV(linea)));
+       //this.listaRobots = new ArrayList<>(CSVUtils.cargarListaCSV("vehiculos.csv", linea -> Robot.fromCSV(linea)));
        
        // Cargar
        this.listaRobots = (ArrayList) JsonUtils.cargar(this.archivo, Robot.class);

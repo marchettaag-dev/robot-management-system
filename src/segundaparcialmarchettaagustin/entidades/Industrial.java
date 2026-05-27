@@ -52,5 +52,4 @@ public class Industrial extends Robot{
                 
         );
     }
-
 }

@@ -26,8 +26,6 @@ public class SegundaParcialMarchettaAgustin extends Application {
         
         stage.setTitle("Gestion del Laboratorio de Robots");
         
-        //stage.setOnCloseRequest(e -> cont);
-        
         stage.show();
         
     }
