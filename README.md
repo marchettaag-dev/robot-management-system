@@ -4,7 +4,7 @@ Aplicación Java para gestionar robots categorizados utilizando operaciones CRUD
 
 ## 📋 Descripción del Proyecto
 
-Sistema de gestión de laboratorio de robots que permite crear, leer, actualizar y eliminar robots de dos categorías diferentes. La aplicación utiliza una interfaz gráfica moderna construida con **JavaFX** y persiste los datos en archivos JSON. Además, almacena automáticamente aquellos robots con bajo nivel de energía en archivos CSV para su seguimiento.
+Sistema de gestión de laboratorio de robots que permite crear, leer, actualizar y eliminar robots de dos categorías diferentes. La aplicación utiliza una interfaz gráfica construida con **JavaFX** y persiste los datos en archivos JSON. Además, almacena automáticamente aquellos robots con bajo nivel de energía en archivos CSV para su seguimiento.
 
 ## 🎯 Características Principales
 
@@ -198,9 +198,5 @@ INDUSTRIAL;;Robot Q6;10.0;1313;500
 
 **Agustín Marchetta**
 - Proyecto realizado para: Programación 2 - Segundo Parcial
-- Universidad: [Institución Educativa]
-- Año: 2026
-
----
-
-**¡Gracias por usar Robot Management System! 🤖✨**
+- Universidad: Universidad Tecnológica Nacional (UTN) de Avellaneda
+- Año: 2025
